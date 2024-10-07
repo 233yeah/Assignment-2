@@ -1,7 +1,14 @@
 h1 {
+    
     text-decoration: underline;
+    font-family: Copperplate, fantasy;
+    font-size: 50px;
+    color: crimson;
 }
-.test{
- background-color: aqua;
-width: px50;
+.bg-item{
+ background-color: #000000;
+width: 1050px;
+height: 70px;
+margin: 0px;
+
 }
