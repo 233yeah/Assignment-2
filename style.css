@@ -1,14 +1,35 @@
-h1 {
-    
+h1{
+    position: relative;
+    top: 10px;
+    left: 7px;
     text-decoration: underline;
     font-family: Copperplate, fantasy;
     font-size: 50px;
     color: crimson;
+    
 }
-.bg-item{
- background-color: #000000;
-width: 1050px;
-height: 70px;
-margin: 0px;
+p1{
+    color: crimson;
+}
+body{
+    margin: 0;
+}
+.tb-item{
+width: 1000px;
+margin: 0;
+padding: 0;
+background-color: #000000;
+
+}
+.top-item{
+    position: relative;
+    bottom: 40px;
+    height: 85px;
+
+}
+.bottom-item{
+    position: relative;
+    top: 420px;
+    height: 105px;
 
 }
