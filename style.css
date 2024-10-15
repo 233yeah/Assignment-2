@@ -1,16 +1,13 @@
-h1{
+.logo{
     position: relative;
-    top: 10px;
     left: 7px;
     text-decoration: underline;
     font-family: Copperplate, fantasy;
     font-size: 50px;
     color: crimson;
-    
+    top: 7px;
 }
-p1{
-    color: crimson;
-}
+
 body{
     margin: 0;
 }
@@ -22,22 +19,100 @@ background-color: #000000;
 
 }
 .top-item{
-    position: relative;
-    bottom: 40px;
-    height: 85px;
-
-}
+    position: fixed;
+    height: 95px;
+    margin-top: 0%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    }
 .bottom-item{
-    position: relative;
-    top: 400px;
+    position: fixed;
+    margin-top: 100%;
+    bottom: 0%;
     height: 105px;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.hero{
+    position: absolute;
+    top: 95px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: red;
+    width: 45%;    
+    height: 55%;
+    left: 27%;
+}
+
+.heroImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.heroText{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    font-family: "Rowdies";
+    bottom: 60%;
+    margin:auto;
+    height: 15%;
+    width: 75%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    outline-style: inset;
+    outline-color: #b90909;
 
 }
 .buttons{
     margin: 0;
     position: absolute;
-    top: 70%;
+    top: 82%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+.poster1{
+    position: relative;
+
+}
+.feature-Text{
+    position: absolute;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    top: 17%;
+}
+.rent1{
+    left: 65px;
+  }
+.rent2{
+    left: 1230px;
+  }
+.feature-image{
+    width: 140px;
+    height: 200px;
+    position: relative;
+
+  }
+.poster-1{
+    top: 180px;
+    left: 100px;
+  }
+.poster-2{
+    right: 45px;
+    top: 400px;
+  }
+ .poster-3{
+    left: 975px;
+    top: 180px;
+ }
+ .poster-4{
+    left: 832px;
+    top: 400px;
+ }
