@@ -70,7 +70,7 @@ background-color: #000000;
     width: 75%;
     text-align: center;
     line-height: 60px;
-    font-size: 30px;
+    font-size: 130%;
     outline-style: inset;
     outline-color: #b90909;
 
@@ -103,17 +103,22 @@ background-color: #000000;
     /*  the size of the posters*/
 .feature-image-1{
     position: fixed;
-    min-width: 140px;
-    max-width: 140px;
-    height: 200px;
+    width: 10%;
+    min-width: 10%;
+    max-width: 20%;
+    height: 100px;
+    max-height: 50%;
     top: 200px;
     left: 7%;
 
   }
   .feature-image-2{
-    min-width: 140px;
-    max-width: 140px;
-    height: 200px;
+    width: 10%;
+    min-width: 10%;
+    max-width: 20%;
+    min-height: 20%;
+    height: 120px;
+    max-height: 50%;
     top: 200px;
     position: fixed;
     left: 82%;
