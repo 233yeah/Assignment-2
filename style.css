@@ -64,8 +64,10 @@ p{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 1500px;
-    height: 660px;
+    max-width: 1500px;
+    width:900px;
+    min-width: 770px;
+    height: 560px;
 
     
 }
@@ -92,8 +94,12 @@ p{
 .buttons{
     position: absolute;
     top: 34px;
-    left:86%;
+    left: 75vw;
 }
+.buttons:hover{
+    background-color: #7e1131
+}
+
 button{
     background-color: #df1854;
     color: white;
@@ -109,7 +115,7 @@ p2{
     font-family: "Passion One", sans-serif;
     font-size: 2.5rem; 
     color: rgb(255, 255, 255);
-    bottom: 250px;
+    bottom: 200px;
     background-color: #000000;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -120,8 +126,8 @@ p2{
 }
     /*  the size of the posters*/
 .feature-image{
-    width: 220px;
-    height: 320px;
+    width: 150px;
+    height: 220px;
     position: relative;
     bottom: 20px;
   }
