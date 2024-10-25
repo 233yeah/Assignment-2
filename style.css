@@ -32,7 +32,7 @@ background-color: #000000;
     /*  the bottom bar*/
 .bottom-item{
     position: relative;
-    height: 105px;
+    height: 75px;
     padding-bottom: 20px;
     margin: 0;
     color: rgb(255, 255, 255);
@@ -96,7 +96,7 @@ p{
     top: 34px;
     left: 75vw;
 }
-.buttons:hover{
+button:hover{
     background-color: #7e1131
 }
 
@@ -113,14 +113,13 @@ p2{
     text-align: center;
     display: block;
     font-family: "Passion One", sans-serif;
-    font-size: 2.5rem; 
+    font-size: 2rem; 
     color: rgb(255, 255, 255);
     bottom: 200px;
     background-color: #000000;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 170px;
-    margin-right: 170px;
+    width: 100%;
     outline-style: inset;
     outline-color: #b90909;
 }
@@ -129,7 +128,7 @@ p2{
     width: 150px;
     height: 220px;
     position: relative;
-    bottom: 20px;
+    bottom: 70px;
   }
       /*  the space between the posters*/
 .featureFlex{
@@ -142,7 +141,7 @@ p2{
 .feature{
     background-image: linear-gradient(to bottom , rgb(82, 2, 2), rgb(0, 0, 0));
     padding-top: 500px;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
 }
 
       
